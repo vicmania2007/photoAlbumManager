@@ -1,0 +1,21 @@
+<div class="container">
+	<div class="page-header">
+	  <h1>Albums</h1>
+	</div>
+	
+	<div class="row" ng-repeat="row in rows() track by $index">
+	  <div class="col-sm-6 col-md-4" ng-repeat="album in albums" ng-if="indexInRange($index,$parent.$index)">
+	    <div class="thumbnail">
+	      <div class="caption">
+	        <h3>{{album.title}}</h3>
+	        <p><a href="photos" class="btn btn-primary" role="button">See Pictures</a></p>
+	      </div>
+	    </div>
+	  </div>
+</div>
+
+
+
+<!-- <div class="row" ng-repeat="row in rows() track by $index">
+    <div class="col-md-3" ng-repeat="item in items" ng-if="indexInRange($index,$parent.$index)"></div>
+</div> -->
