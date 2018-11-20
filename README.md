@@ -2,6 +2,10 @@
 
 Description: Photo Album Manager is a web application, wherein user can view their albums and photos.
 
+Contributors:
+1. Vignesh Kumar Subramanian
+2. Ramya Raju
+
 Techstack used:
 
 Front end:
